@@ -1,4 +1,5 @@
-def my_h(liste):
+#itemcounter fonksiyonu girilen listenin elemanlarından kaç tane olduğunu bir küme çıktısı olarak döndürür.
+def itemcounter(liste):
   my_d={}
   for item in liste:
     if item not in my_d:
@@ -6,6 +7,6 @@ def my_h(liste):
     else:
       my_d[item]=item+1
   return my_d
-print(my_h([2,3,4,6,2,5,6,6,6,6,6,6,6,2]))
+print(itemcounter([2,3,4,6,2,5,6,6,6,6,6,6,6,2]))
 
 # output:{2: 3, 3: 1, 4: 1, 6: 7, 5: 1}
