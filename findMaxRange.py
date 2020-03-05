@@ -1,3 +1,4 @@
+#findMaxRange fonksiyonu girilen dizi içindeki maksimum toplamı verir.i_1 ve i_2 ise sınır indislerdir.#
 def findMaxRange_i(inlist=[4, -3, 5, -2, -1, 2, 6, -2]):
     max = 0
     for i in range(len(inlist)):
@@ -10,7 +11,10 @@ def findMaxRange_i(inlist=[4, -3, 5, -2, -1, 2, 6, -2]):
                 max = t
                 i_1, i_2 = i, j
     return max , i_1, i_2
+print(findMaxRange_i(inlist=[4, -3, 5, -2, -1, 2, 6, -2])
+#output:(11,0,6) 
 
+#Alttaki fonksiyonda  daha az kontrol var#
 def findMaxRange_ii(inlist=[4, -3, 5, -2, -1, 2, 6, -2]):  
     max = 0
     for i in range(len(inlist)):
