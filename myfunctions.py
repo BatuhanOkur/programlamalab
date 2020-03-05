@@ -1,3 +1,4 @@
+#my_f_1, my_f_2 ve my_f_3 fonksiyonları dizi içindeki ardışık maksimum toplam değeri bulur ve bu değeri maxSum değişkenine atar.
 def my_f_1(inList=[4, -3, 5, -2, -1, 2, 6, -2]):
     maxSum = 0
     n = len(inList)
@@ -21,6 +22,7 @@ def my_f_2(inList=[4, -3, 5, -2, -1, 2, 6, -2]):
                 maxSum = t
     return maxSum
     
+    #my_f_3 fonksiyonu diziyi her adımda ikiye bölerek daha hızlı arama yapar.
     def my_f_3(inList=[4, -3, 5, -2, -1, 2, 6, -2]): 
     n = len(inList)
     if (n == 1):
