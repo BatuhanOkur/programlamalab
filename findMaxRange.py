@@ -25,3 +25,5 @@ def findMaxRange_ii(inlist=[4, -3, 5, -2, -1, 2, 6, -2]):
                 max = t
                 i_1, i_2 = i, j
     return max , i_1, i_2
+print(findMaxRange_ii(inlist=[4, -3, 5, -2, -1, 2, 6, -2])
+#output:(11,0,6)       
