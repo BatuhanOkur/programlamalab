@@ -7,6 +7,12 @@ t = FiniteSet(Fraction(1,5), 1, 5, 1, 1, 91, 87)
 for member in s:
     print(member)
 #s nin elemanlarını yazdırır.(küçükten büyüğe)
+#output:
+#1/5
+#1
+#1.50000000000000
+#7
+#42
     
 if s == t:
     print("True")
