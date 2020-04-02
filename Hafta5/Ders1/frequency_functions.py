@@ -2,13 +2,12 @@ import random
 
 random.randint(1,100)  # 1 ile 100 arasında rastgele sayı üretir.(1 ve 100 dahil)
 
-def get_n_random_numbers(n=10,min_=-5,max_=5):
+def get_n_random_numbers(n=10,min_=-5,max_=5):#Bu fonksiyon min_ ve max_ değer arasında n tane rastgele sayı üretir.    
     numbers=[]
     for i in range(n):
         numbers.append(random.randint(min_,max_))
     return numbers
 get_n_random_numbers()
-#Bu fonksiyon min_ ve max_ değer arasında n tane rastgele sayı üretir.    
 
 get_n_random_numbers(22,-56,64) # -56 ile 64 arasında 22 tane rastgele sayı üretir.
 
