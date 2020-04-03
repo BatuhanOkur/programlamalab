@@ -1,4 +1,4 @@
-# my_frequency_with_dict ve my_frequency_with_list_of_tuple "Ders1" dosyasında mevcuttur burada tanımlanmış kabul edilmiştir.
+# get_n_random_numbers,my_frequency_with_dict ve my_frequency_with_list_of_tuple "Ders1" dosyasında mevcuttur burada tanımlanmış kabul edilmiştir.
 
 my_list=get_n_random_numbers(10)
 my_freq_dict=my_frequency_with_dict(my_list)
