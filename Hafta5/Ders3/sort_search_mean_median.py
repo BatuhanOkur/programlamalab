@@ -41,18 +41,18 @@ def bineary_search(mylist,item_search): #sıralanmış bir listeyi ikiye bölere
             low=mid+1
     return found
 
-def median(mylist): #bir listenin medyanını bulur.
-    my_list_2=bubble_sort(my_list)
+def median(mylist):#bir listenin medyanını bulur.
+    my_list_2=bubble_sort(mylist)
     print("Listenin sıralanmış hali:",my_list_2)
     n=len(my_list_2)
     if n%2==1:
         middle=int(n/2)+1
-        median=my_list_2[middle]
+        median=my_list_2[middle-1]
         #print(median)
     else:
-        middle_1=my_list_2[int(n/2)]
-        middle_2=my_list_2[int(n/2)+1]
-        median=(middle_1+middle_2)/2
+        middle_1=int(n/2)-1
+        middle_2=middle_1+1
+        median=(my_list_2[middle_1]+my_list_2[middle_2])/2
         #print(median)
     return median
     
