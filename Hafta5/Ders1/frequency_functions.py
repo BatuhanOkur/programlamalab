@@ -33,7 +33,7 @@ def my_frequency_with_list_of_tuples(list_1): # Hangi elemanın kaç kere listed
                 freq_list[j][1]=freq_list[j][1]+1
                 s=True
         if(s==False):
-            freq_list.append(list_1[i],1)
+            freq_list.append([list_1[i],1])
     return freq_list
 
 my_list=[2,3,2,5,8,2,4,3,3,2,8,5,2,4,4,4,4,4]
