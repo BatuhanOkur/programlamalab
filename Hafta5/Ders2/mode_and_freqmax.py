@@ -1,8 +1,8 @@
-# get_n_random_numbers,my_frequency_with_dict ve my_frequency_with_list_of_tuple "Ders1" dosyasında mevcuttur burada tanımlanmış kabul edilmiştir.
+# get_n_random_numbers,my_frequency_with_dict ve my_frequency_with_list_of_tuples "Ders1" dosyasında mevcuttur burada tanımlanmış kabul edilmiştir.
 
-my_list=get_n_random_numbers(10)
-my_freq_dict=my_frequency_with_dict(my_list)
-my_freq_list=my_frequency_with_list_of_tuples(my_list)
+my_list = get_n_random_numbers(10)
+my_freq_dict = my_frequency_with_dict(my_list)
+my_freq_list = my_frequency_with_list_of_tuples(my_list)
 
 def my_mode_in_dict(my_hist_d): #Bir kümedeki modu ve kaç kere tekrar ettiğini döndürür.
     freq_max=-1
