@@ -52,7 +52,7 @@ def getMedian(liste):
     return median
 
 aylar_dict = Histogram(aylar)
-value_list = [*aylar_dict.values()]
+value_list = [aylar_dict.values()]
 median = getMedian(value_list)
 mean = int(mean(value_list))
 output_list = ["Medyan", str(median), "Ortalama", str(mean)]
