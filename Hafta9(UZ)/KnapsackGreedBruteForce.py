@@ -57,11 +57,11 @@ def testGreedy(items, maxWeight, keyFunction):
 
 def testGreedys(maxWeight = 10):#maxWeight = 20
     items = buildItems()
-    print("Use greedy by value to fill knapsack of size = ", maxWeight)#para değerine en yüksek tutarak
+    print("Use greedy by value to fill knapsack of size = ", maxWeight)
     testGreedy(items, maxWeight, value)
-    print("\nUse greedy by weight to fill knapsack of size = ", maxWeight)#ağırlığı en az tutarak
+    print("\nUse greedy by weight to fill knapsack of size = ", maxWeight)
     testGreedy(items, maxWeight, weightInverse)
-    print("\nUse greedy by density to fill knapsack of size = ", maxWeight)#para/ağırlık yani density'e göre
+    print("\nUse greedy by density to fill knapsack of size = ", maxWeight)
     testGreedy(items, maxWeight, density)
 
 print(testGreedys())
