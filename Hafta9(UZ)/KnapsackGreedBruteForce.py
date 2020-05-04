@@ -50,7 +50,7 @@ def buildItems():
 
 def testGreedy(items, maxWeight, keyFunction):
     taken, val = greedy(items, maxWeight, keyFunction)
-    print("Total value of this taken is = ", val)#toplam para değerini yazdırıyoruz
+    print("Total value of this taken is = ", val)
     for item in taken:
         print('  ', item)
 
