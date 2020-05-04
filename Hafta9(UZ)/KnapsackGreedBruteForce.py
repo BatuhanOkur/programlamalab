@@ -100,4 +100,4 @@ print(testBest())
 pset = set(genPowerset({1, 2, 3}))
 #for set_1 in pset: 
    # print(set_1)
-pp(set(genPowerset({1, 2, 3})))#tek seferde hepsini yazdırıyor
+pp(set(genPowerset({1, 2, 3})))
